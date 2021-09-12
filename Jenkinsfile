@@ -4,7 +4,7 @@ pipeline{
         stage('build'){
             steps{
                 echo 'hello world,with github!'
-                sh "printenv"
+                sh "path"
             }
         }
     }
